@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Uygulama">
+
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="kullaniciAdi"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Lütfen kullanıcı adınızı giriniz!"
+            android:title="Kullanıcı Adı" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/sembol"
+            android:key="bildirim"
+            android:title="Bildirim İzni" />
+        <ListPreference
+            android:defaultValue="false"
+            android:entries="@array/ListArray"
+            android:entryValues="@array/Values"
+            android:key="yedekSikligi"
+            android:title="Yedekleme Sıklığı" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Güvenlik">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="profilGuvenlik"
+            android:title="Profilini Gizle" />
+    </PreferenceCategory>
+</PreferenceScreen>

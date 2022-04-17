@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AyarSayfasi</string>
+    <string-array name="ListArray">
+        <item>HAftalık</item>
+        <item>Aylık</item>
+        <item>Yıllık</item>
+    </string-array>
+
+    <string-array name="Values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
